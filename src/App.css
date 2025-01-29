@@ -1,0 +1,8 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@theme {
+  --font-roboto: Roboto, sans-serif;
+}

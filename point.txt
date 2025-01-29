@@ -1,0 +1,25 @@
+useState()
+What does it does: 
+It lets you add and manage state (data that changes over times) in your funtional component.
+Syntax:
+const [state, setState] = useState(initial value)
+How To Use It:
+state: Holds the current value
+setStae: A function to update the state
+initial value: The starting value of the state 
+When To Use It:
+To manage small pieces of dynamic data in a component. (e.g. user inputs, toggles, counters)
+
+useEffect()
+What it does:
+It lets you perform side effects in your component. (e.g. fetching data, interacting with the DOM, setting up timers)
+Syntax:
+useEffect(()=>{},[dependency Array])
+How To Use It:
+First Argument: A function that runs after the component renders
+Second aragument(dependency Array): 
+[]: Runs only once (on mount) i.e when the component mounts
+[state]: Runs when the state 
+No array: Runs on every render (be careful with this)
+When To Use It:
+Fetching data from an API, updating the document title, subscribing/unsubscribing, cleaning up(e.g clearing timers, removing event listeners)
